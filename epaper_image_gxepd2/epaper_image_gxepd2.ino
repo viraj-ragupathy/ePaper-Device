@@ -1,27 +1,3 @@
-/*------------------------------------------------------------------------------
-  11/29/2019
-  Author: Makerbro
-  Platforms: ESP8266
-  Language: C++/Arduino
-  File: epd_primer.ino
-  ------------------------------------------------------------------------------
-  Description:
-  Code for YouTube video demonstrating how to get started and diplay custom
-  images on an e-Paper Display controlled by an ESP8266.
-  https://youtu.be/1Uzs98IUgrw
-  Do you like my videos? You can support the channel:
-  https://patreon.com/acrobotic
-  https://paypal.me/acrobotic
-  ------------------------------------------------------------------------------
-  Please consider buying products from ACROBOTIC to help fund future
-  Open-Source projects like this! We'll always put our best effort in every
-  project, and release all our design files and code for you to use.
-  https://acrobotic.com/
-  https://amazon.com/acrobotic
-  ------------------------------------------------------------------------------
-  License:
-  Please see attached LICENSE.txt file for details.
-  ------------------------------------------------------------------------------*/
 #define ENABLE_GxEPD2_GFX 0 // we won't need the GFX base class
 //#include <GxEPD2_BW.h>
 #include <GxEPD2_3C.h>
